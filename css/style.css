@@ -162,12 +162,20 @@ a:focus {
 }
 /* End FAQ */
 
+/* footer */
+.footer {
+  background: url(/img/footer.svg);
+  background-size: cover;
+  height: 392px;
+}
+
 /* About Us */
 .about-us {
   margin-top: 50px;
 }
 
 .join {
+  margin-bottom: px;
   background: linear-gradient(99.67deg, #fff965 -8.01%, #ff7676 89.07%);
 }
 
