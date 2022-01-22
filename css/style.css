@@ -37,6 +37,13 @@ h1 {
   background: linear-gradient(102.47deg, #fff965 4.3%, #ff7676 117.73%);
 }
 
+/* Navbar */
+.navbar-nav a:hover {
+  background: -webkit-linear-gradient(#fff965, #79ff76);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Height Content */
 .solution {
   margin-top: 150px;
@@ -61,6 +68,9 @@ h1 {
 
 /* Navbar */
 .nav-link {
+  margin-right: 30px;
+}
+.nav-link:hover {
   margin-right: 30px;
 }
 
@@ -232,3 +242,5 @@ a:focus {
 .card-insight img:hover {
   transition: transform 0.25s, visibility 0.25s ease-in;
 }
+
+/* HOVER EFFECT 4 */
