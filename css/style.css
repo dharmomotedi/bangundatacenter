@@ -62,10 +62,6 @@ h1 {
   margin-top: 150px;
 }
 
-.join {
-  border-radius: 30px;
-}
-
 /* Navbar */
 .nav-link {
   margin-right: 30px;
@@ -180,7 +176,30 @@ a:focus {
 .footer {
   background: url(https://alfinagamulya.github.io/bangundatacenter/img/footer.svg);
   background-size: cover;
-  height: 392px;
+  height: 350px;
+}
+
+.footer a:hover {
+  background: -webkit-linear-gradient(#fff965, #79ff76);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sosial a {
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100px;
+  color: white;
+  font-size: 20px;
+  margin-right: 15px;
+  padding: 3px 8px;
+}
+.sosial a:hover {
+  width: 30px;
+  text-align: center;
+  color: black;
+  background: linear-gradient(95.26deg, #fff965 4.26%, #79ff76 212.34%);
 }
 
 /* About Us */
@@ -189,7 +208,6 @@ a:focus {
 }
 
 .join {
-  margin-bottom: px;
   background: linear-gradient(99.67deg, #fff965 -8.01%, #ff7676 89.07%);
 }
 
