@@ -208,7 +208,9 @@ a:focus {
 }
 
 .join {
-  background: linear-gradient(99.67deg, #fff965 -8.01%, #ff7676 89.07%);
+  background: url(/img/join.svg);
+  padding: auto;
+  height: 260px;
 }
 
 /*  Desktop Version */
