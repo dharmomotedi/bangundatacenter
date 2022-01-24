@@ -74,6 +74,10 @@ h1 {
   margin-right: 30px;
 }
 
+.card-insight:hover {
+  opacity: 29px;
+}
+
 /* Header */
 .jumbotron {
   background: url('https://alfinagamulya.github.io/bangundatacenter/img/banner.svg ');
@@ -221,7 +225,27 @@ a:focus {
 .contact-us {
   height: 300px;
 }
+
 .contact-us .display-4 {
+  margin-top: 65px;
+  font-size: 48px;
+}
+
+.card-contact {
+  background: linear-gradient(95.26deg, #fff965 4.26%, #79ff76 212.34%);
+  border: white;
+  width: 270px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+/* Article */
+
+.article {
+  height: 400px;
+}
+
+.article .display-4 {
   margin-top: 65px;
   font-size: 48px;
 }
@@ -243,4 +267,16 @@ a:focus {
   transition: transform 0.25s, visibility 0.25s ease-in;
 }
 
+/* Halaman Faq */
+.page-faq {
+  margin-bottom: 100px;
+}
+
+/* Halaman Details */
+/* .details img {
+  margin-top: -90px;
+  border-radius: 30px;
+  justify-content: center;
+  margin-left: 90px;
+} */
 /* HOVER EFFECT 4 */
