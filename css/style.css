@@ -268,8 +268,9 @@ a:focus {
 }
 
 /* Halaman Faq */
-.page-faq {
-  margin-bottom: 100px;
+.page-faq,
+.about-page {
+  margin-bottom: 90px;
 }
 
 /* Halaman Details */
