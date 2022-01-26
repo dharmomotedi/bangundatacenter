@@ -33,6 +33,11 @@ body {
 }
 /* End Navbar */
 
+/* Halaman Solution */
+.brand-partner img {
+  width: 120px;
+}
+
 /* Header */
 .jumbotron {
   background: url('https://alfinagamulya.github.io/bangundatacenter/img/banner.svg ');
@@ -75,7 +80,6 @@ body {
 .footer {
   background: url(https://alfinagamulya.github.io/bangundatacenter/img/footer.svg);
   background-size: cover;
-  height: 350px;
 }
 
 .footer a:hover {
@@ -103,9 +107,12 @@ body {
 
 .join {
   background: url(https://alfinagamulya.github.io/bangundatacenter/img/join.svg);
-  padding: auto;
   height: 260px;
   width: 100%;
+}
+
+.join h2 {
+  font-size: 34px;
 }
 
 /* Halaman Contact Us */
@@ -209,6 +216,11 @@ body {
 
   h1 {
     font-size: 68px;
+  }
+
+  /* Join */
+  .join h2 {
+    font-size: 48px;
   }
 }
 
