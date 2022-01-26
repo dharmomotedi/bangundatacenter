@@ -11,6 +11,7 @@ body {
 /* Navbar */
 .nav-link {
   margin-right: 30px;
+  color: white !important;
 }
 .nav-link:hover {
   margin-right: 30px;
@@ -100,15 +101,29 @@ body {
   background: linear-gradient(95.26deg, #fff965 4.26%, #79ff76 212.34%);
 }
 
-/* About Us */
-.about-us {
-  margin-top: 50px;
-}
-
 .join {
   background: url(https://alfinagamulya.github.io/bangundatacenter/img/join.svg);
   padding: auto;
   height: 260px;
+  width: 100%;
+}
+
+/* Halaman Contact Us */
+.contact-us {
+  height: 200px;
+}
+
+.contact-us .display-4 {
+  margin-top: 30px;
+  font-size: 34px;
+}
+
+.card-contact {
+  background: linear-gradient(95.26deg, #fff965 4.26%, #79ff76 212.34%);
+  border: white;
+  width: 270px;
+  height: 250px;
+  border-radius: 15px;
 }
 
 /* END VERSION MOBILE APPS */
@@ -136,6 +151,15 @@ body {
 
   .jumbotron {
     margin-top: -90px;
+  }
+
+  .contact-us {
+    height: 300px;
+  }
+
+  .contact-us .display-4 {
+    margin-top: 65px;
+    font-size: 48px;
   }
 
   /* Client Logo */
@@ -186,24 +210,6 @@ body {
   h1 {
     font-size: 68px;
   }
-}
-
-/* Halaman Contact Us */
-.contact-us {
-  height: 300px;
-}
-
-.contact-us .display-4 {
-  margin-top: 65px;
-  font-size: 48px;
-}
-
-.card-contact {
-  background: linear-gradient(95.26deg, #fff965 4.26%, #79ff76 212.34%);
-  border: white;
-  width: 270px;
-  height: 250px;
-  border-radius: 15px;
 }
 
 /* Article */
