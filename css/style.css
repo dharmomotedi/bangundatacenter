@@ -42,17 +42,23 @@ body {
 .jumbotron {
   background: url('https://alfinagamulya.github.io/bangundatacenter/img/banner.svg ');
   background-size: cover;
-  width: 100%;
   height: 550px;
   text-align: center;
 }
 
-.jumbotron .display-4 {
+.contact-us .display-4 {
   color: white;
   text-align: center;
   margin-top: 100px;
   font-weight: bold;
   font-size: 38px;
+}
+.home .display-4 {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: bold;
+  font-size: 48px;
 }
 
 .lead {
@@ -80,6 +86,8 @@ body {
 .footer {
   background: url(https://alfinagamulya.github.io/bangundatacenter/img/footer.svg);
   background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .footer a:hover {
@@ -160,10 +168,6 @@ body {
     margin-top: -90px;
   }
 
-  .contact-us {
-    height: 300px;
-  }
-
   .contact-us .display-4 {
     margin-top: 65px;
     font-size: 48px;
@@ -174,11 +178,16 @@ body {
     margin-top: -140px;
   }
 
-  .jumbotron {
+  .home {
     background: url('https://alfinagamulya.github.io/bangundatacenter/img/banner.svg ');
     background-size: cover;
-    width: 100%;
     height: 794px;
+    text-align: center;
+  }
+  .contact-us {
+    background: url('https://alfinagamulya.github.io/bangundatacenter/img/banner.svg ');
+    background-size: cover;
+    height: 300px;
     text-align: center;
   }
 
@@ -187,14 +196,6 @@ body {
     text-align: center;
     padding-top: 18px;
     font-size: 18px;
-  }
-
-  .jumbotron .display-4 {
-    color: white;
-    text-align: center;
-    margin-top: 150px;
-    font-weight: bold;
-    font-size: 68px;
   }
 
   .btn-second {
