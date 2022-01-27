@@ -114,13 +114,14 @@ body {
 }
 
 .join {
-  background: url(https://alfinagamulya.github.io/bangundatacenter/img/join.svg);
-  height: 260px;
+  background: url(https://alfinagamulya.github.io/bangundatacenter/img/joins1.svg);
+  height: 100%;
+  padding-bottom: 30px;
   width: 100%;
 }
 
 .join h2 {
-  font-size: 34px;
+  font-size: 28px;
 }
 
 /* Halaman Contact Us */
@@ -158,10 +159,18 @@ body {
     width: 140px;
     color: rgb(0, 0, 0);
   }
+  .join h2 {
+    font-size: 34px;
+  }
 
   .btn-contact:hover {
     background: linear-gradient(113.74deg, #fff965 12.6%, #79ff76 140.37%);
     border-radius: 5px;
+  }
+  .join {
+    background: url(https://alfinagamulya.github.io/bangundatacenter/img/join.svg);
+    height: 260px;
+    width: 100%;
   }
 
   .jumbotron {
