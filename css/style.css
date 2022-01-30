@@ -404,7 +404,11 @@ h1 {
   margin-top: 150px;
 }
 
-.insight,
-.join {
+.insight {
   margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.join {
+  margin-top: 100px;
 }
