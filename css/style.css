@@ -8,6 +8,10 @@ body {
   background: #002e6b;
 }
 
+span:hover {
+  background-color: #000000;
+}
+
 /* Navbar */
 .nav-link {
   margin-right: 30px;
