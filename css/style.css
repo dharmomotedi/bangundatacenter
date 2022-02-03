@@ -25,13 +25,39 @@ span:hover {
   background: linear-gradient(241.98deg, #fff965 9.58%, #79ff76 86.42%);
   border-radius: 5px;
   width: 100%;
-  color: rgb(139, 129, 129);
+  color: #000000;
 }
 
 .btn-contact:hover {
   background: linear-gradient(113.74deg, #fff965 12.6%, #79ff76 140.37%);
   border-radius: 5px;
 }
+
+.btn-contact-page {
+  background: linear-gradient(241.98deg, #fff965 9.58%, #79ff76 86.42%);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+.btn-contact-page:hover {
+  background: linear-gradient(113.74deg, #fff965 12.6%, #79ff76 140.37%);
+  border-radius: 5px;
+}
+
+.btn-insight {
+  background: linear-gradient(182.09deg, #fff965 -75.57%, #ff7676 125.16%);
+  width: 10%;
+}
+
+.btn-insight:hover {
+  background: linear-gradient(102.47deg, #fff965 4.3%, #ff7676 117.73%);
+}
+
+.btn-insight-1:hover {
+  background: linear-gradient(182.09deg, #fff965 -75.57%, #ff7676 125.16%);
+}
+
 .card-insight:hover {
   opacity: 29px;
 }
@@ -146,6 +172,9 @@ span:hover {
   border-radius: 15px;
 }
 
+.contact {
+  margin-bottom: 50px;
+}
 /* END VERSION MOBILE APPS */
 
 /*  Desktop Version */
