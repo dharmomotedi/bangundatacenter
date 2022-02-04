@@ -47,7 +47,7 @@ span:hover {
 
 .btn-insight {
   background: linear-gradient(182.09deg, #fff965 -75.57%, #ff7676 125.16%);
-  width: 10%;
+  width: 30%;
 }
 
 .btn-insight:hover {
@@ -185,6 +185,23 @@ span:hover {
   }
   .navbar {
     background: transparent;
+  }
+
+  .logo-customer-app {
+    background: url(/img/customer.svg);
+  }
+
+  .btn-insight {
+    background: linear-gradient(182.09deg, #fff965 -75.57%, #ff7676 125.16%);
+    width: 10%;
+  }
+
+  .btn-insight:hover {
+    background: linear-gradient(102.47deg, #fff965 4.3%, #ff7676 117.73%);
+  }
+
+  .btn-insight-1:hover {
+    background: linear-gradient(182.09deg, #fff965 -75.57%, #ff7676 125.16%);
   }
 
   .team {
