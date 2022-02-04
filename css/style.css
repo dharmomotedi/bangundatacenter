@@ -84,7 +84,7 @@ body {
   text-align: center;
   margin-top: 100px;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 38px;
 }
 .home .display-4 {
   color: white;
@@ -92,6 +92,10 @@ body {
   margin-top: 60px;
   font-weight: bold;
   font-size: 48px;
+}
+
+.article .display-4 {
+  font-size: 34px !important;
 }
 
 .lead {
@@ -192,6 +196,10 @@ body {
 
   .logo-customer-app {
     background: url(/img/customer.svg);
+  }
+
+  .article .display-4 {
+    font-size: 48px !important;
   }
 
   .btn-insight {
