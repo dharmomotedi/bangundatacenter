@@ -61,6 +61,26 @@ body {
   background: linear-gradient(182.09deg, #fff965 -75.57%, #ff7676 125.16%);
 }
 
+.success {
+  margin-top: 40px;
+}
+
+.btn-success-1 {
+  background: linear-gradient(241.98deg, #fff965 9.58%, #79ff76 86.42%);
+  border-radius: 5px;
+  color: #000000;
+}
+.btn-success-1:hover {
+  background: linear-gradient(113.74deg, #fff965 12.6%, #79ff76 140.37%);
+  border-radius: 5px;
+}
+
+.btn-succes-2:hover {
+  background: -webkit-linear-gradient(#ddd840, #ff3131 125.16%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .card-insight:hover {
   opacity: 29px;
 }
