@@ -8,8 +8,11 @@ body {
   background: #002e6b;
 }
 
-span:hover {
-  background-color: #000000;
+.navbar-brand span {
+  background: url('/img/menu_alt_02.svg');
+}
+.navbar-brand span:hover {
+  background: url('/img/icon_nav_hover.svg');
 }
 
 /* Navbar */
@@ -81,7 +84,7 @@ span:hover {
   text-align: center;
   margin-top: 100px;
   font-weight: bold;
-  font-size: 38px;
+  font-size: 28px;
 }
 .home .display-4 {
   color: white;
