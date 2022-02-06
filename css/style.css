@@ -61,6 +61,18 @@ body {
   background: linear-gradient(182.09deg, #fff965 -75.57%, #ff7676 125.16%);
 }
 
+.button-arrow:hover {
+  transition: 0.9s;
+  background: -webkit-linear-gradient(#ddd840, #ff3131 125.16%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button-arrow img:hover {
+  padding-left: 30px;
+  transition: 0.9s;
+}
+
 .success {
   margin-top: 40px;
 }
