@@ -68,6 +68,13 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.link-insight:hover {
+  transition: 0.9s;
+  background: -webkit-linear-gradient(#ddd840, #ff3131 125.16%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .button-arrow img:hover {
   padding-left: 30px;
   transition: 0.9s;
