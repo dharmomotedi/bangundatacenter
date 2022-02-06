@@ -408,7 +408,7 @@ a:focus {
   border-radius: 5px;
   box-shadow: none;
   margin-bottom: 10px;
-  background: transparent;
+  background: #f7f7f7;
 }
 #accordion .panel-heading {
   padding: 0;
@@ -451,7 +451,9 @@ a:focus {
   transition: all 0.4s cubic-bezier(0.08, 1.09, 0.32, 1.275);
 }
 #accordion .panel-title a.collapsed:before {
-  color: rgba(0, 0, 0, 0.5);
+  background: -webkit-linear-gradient(#ddd840, #ff3131 125.16%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   transform: rotate(0deg);
 }
 #accordion .panel-body {
